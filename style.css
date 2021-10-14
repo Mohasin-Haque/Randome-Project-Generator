@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+}
+
+#container{
+    background-color: darkcyan;
+    border: 5px solid #f5e4c3; 
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn1{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(230, 101, 101);
+}
+
+.btn{
+    background-color: #35d47d;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.1),0 6px 6px rgba(0,0,0,0.1);;
+    /* padding: 14px 40px; */
+    /* font-size: 22px; */
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+
+#output{
+    margin: 25px auto;
+    font-size: 26px;
+    color: antiquewhite;
+}
